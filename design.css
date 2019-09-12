@@ -1,0 +1,91 @@
+.header		{
+		background-color: #b5dcb3; 
+		height: 10vh;
+		}
+
+/* The menu with hover effects */
+.menu 		{
+  		background-color: #333;
+  		overflow: hidden;
+		}
+
+
+.header:hover 	{
+		opacity:0.5;
+		}
+
+.menu a		{
+		float: left;
+    		position: relative;
+    		top: 0;
+    		left: 0;
+    		transform: none;
+ 		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		}
+
+.menu a:hover {
+  		background-color: #ddd;
+  		color: black;
+		}
+
+
+.topnav a.active {
+  		background-color: #4CAF50;
+  		color: white;
+		}
+
+
+.leftcol	{	
+		background-color: #dddddd;
+		height: 80vh;
+		width: 20%;
+		float: left;
+		}
+
+
+.content	{	
+		background-color: #dddddd;
+		height: 80vh;
+		width: 60%;
+		float: left;
+		transition: all 0.9s ease;
+		}
+
+
+.rightcol	{	
+		background-color: #dddddd;
+		height: 80vh;
+		width: 20%;
+		float: right;
+		}
+
+
+.footer		{	
+		background-color: #dddddd;
+		height: 10vh;
+		clear: both;
+		}
+
+ul		{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		background-color: #b5dcb3;
+		outline-color: blacK;
+		}
+
+li a		{
+		color: #000000;
+		display: block;
+		padding: 8px 16px;
+		text-decoration: none;
+		}
+
+li a:hover	{
+		background-color: #555555;
+		
+		}
