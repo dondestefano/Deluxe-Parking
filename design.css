@@ -1,3 +1,13 @@
+.body		{
+		display: block;
+		position: relative;
+		-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+		width: 1000px;
+		margin: 0 auto;
+		}
+
 .header		{
 		background-color: #394a6d; 
 		height: 10vh;
@@ -17,6 +27,7 @@
 .menu a		{
 		float: left;
     		position: relative;
+		margin: 0 auto;
     		top: 0;
     		left: 0;
     		transform: none;
@@ -34,7 +45,7 @@
 
 
 .topnav a.active {
-  		background-color: #4CAF50;
+  		background-color: #c70d3a;
   		color: white;
 		}
 
@@ -45,7 +56,6 @@
 		width: 1000px;
 		position: relative;
 		z-index: 10;
-		box-shadow: 0 0 10 PX 0 #000;
 		transition: all 0.9s ease;
 		display: block;
 		margin: 0 auto;
@@ -72,8 +82,9 @@
 		margin: 0 auto;
 		}
 
-.footer	p	{	
-  		text-align:center;
+.footertext	{	
+  		text-align: center;
 		padding-top: 40px;
 		color: white;
+		z-index: 1;
 		}
