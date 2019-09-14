@@ -1,5 +1,5 @@
 .header		{
-		background-color: #b5dcb3; 
+		background-color: #394a6d; 
 		height: 10vh;
 		width: 1000px;
 		position: relative;
@@ -8,7 +8,7 @@
 		}
 
 .menu 		{
-  		background-color: #333;
+  		background-color: #394a6d;
 		width: 1000px;
   		overflow: hidden;
 		margin: 0 auto;
@@ -28,7 +28,7 @@
 		}
 
 .menu a:hover {
-  		background-color: #ddd;
+  		background-color: #c70d3a;
   		color: black;
 		}
 
@@ -52,7 +52,7 @@
 		}
 
 .background	{
-		background-color: yellow;
+		background-color: #f0decb;
  		position: absolute;
   		left: 0px;
 		top: 0px;
@@ -62,17 +62,18 @@
 		}
 
 .footer		{	
-		background-color: #dddddd;
+		background-color: #394a6d;
 		position: relative;
 		display: block;
 		width: 1000px;
 		height: 10vh;
 		clear: both;
-		z-index: 2;
+		z-index: 1;
 		margin: 0 auto;
 		}
 
 .footer	p	{	
   		text-align:center;
 		padding-top: 40px;
+		color: white;
 		}
