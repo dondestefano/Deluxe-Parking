@@ -1,22 +1,50 @@
+.body		{
+		display: block;
+		position: relative;
+		-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+		width: 1000px;
+		margin: 0 auto;
+		}
+
 .header		{
-		background-color: #b5dcb3; 
-		height: 10vh;
+		background-color: #394a6d; 
+		height: 150px;
+		width: 1000px;
+		position: relative;
+		z-index: 4;
 		}
 
-/* The menu with hover effects */
+.logo		{
+		display: inline-block;
+		width: 200px;
+		border: 3px solid white;
+		position: absolute;
+		text-align: center;
+		font-family: 'Audiowide', cursive;
+		font-size: 18px;
+		vertical-align: middle;
+		top: 50px;
+		left: 375px;
+		background-color: #c70d3a;
+		color: white;
+		padding: 20px;
+		}
+
+
 .menu 		{
-  		background-color: #333;
+  		background-color: #c70d3a;
+		width: 1000px;
   		overflow: hidden;
-		}
-
-
-.header:hover 	{
-		opacity:0.5;
+		margin: 0 auto;
+		font-family: 'Poppins', sans-serif;
 		}
 
 .menu a		{
 		float: left;
     		position: relative;
+		margin: 0 auto;
     		top: 0;
     		left: 0;
     		transform: none;
@@ -28,64 +56,67 @@
 		}
 
 .menu a:hover {
-  		background-color: #ddd;
+  		background-color: #394a6d;
   		color: black;
+		font-family: 'Poppins', bold;
 		}
 
 
 .topnav a.active {
-  		background-color: #4CAF50;
+  		background-color: #394a6d;
   		color: white;
 		}
 
 
-.leftcol	{	
-		background-color: #dddddd;
-		height: 80vh;
-		width: 20%;
-		float: left;
-		}
-
-
 .content	{	
-		background-color: #dddddd;
-		height: 80vh;
-		width: 60%;
-		float: left;
+		background-color: #f0decb;
+		height: 70%;
+		width: 1000px;
+		position: relative;
+		z-index: 10;
 		transition: all 0.9s ease;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		font-family: 'Manjari', sans-serif;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		color: black;
+		z-index: 1;
 		}
 
-
-.rightcol	{	
-		background-color: #dddddd;
-		height: 80vh;
-		width: 20%;
-		float: right;
+.background	{
+		background-color: #f0decb;
+ 		position: absolute;
+  		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+ 		z-index: -1;
 		}
 
+.background img	{
+ 		position: absolute;
+  		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		}
 
 .footer		{	
-		background-color: #dddddd;
+		background-color: #394a6d;
+		position: relative;
+		display: block;
+		width: 1000px;
 		height: 10vh;
 		clear: both;
+		z-index: 1;
+		margin: 0 auto;
 		}
 
-ul		{
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		background-color: #b5dcb3;
-		outline-color: blacK;
-		}
-
-li a		{
-		color: #000000;
-		display: block;
-		padding: 8px 16px;
-		text-decoration: none;
-		}
-
-li a:hover	{
-		background-color: #555555;
-		
+.footertext	{	
+  		text-align: center;
+		padding-top: 40px;
+		color: white;
+		z-index: 1;
 		}
