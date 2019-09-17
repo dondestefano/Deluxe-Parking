@@ -91,6 +91,7 @@ body	{
 .content p	{
 		padding-left: 45px;
 		padding-right: 45px;
+		letter-spacing: 0,5px;
 		}
 
 .content h1	{
@@ -107,6 +108,12 @@ body	{
 		font-family: 'Manjari', sans-serif;
 		font-weight: bold;
 		font-size: 17px;
+		padding-left: 45px;
+		padding-right: 45px;
+		}
+
+.content h3	{
+		font-size: 12px;
 		padding-left: 45px;
 		padding-right: 45px;
 		}
@@ -137,6 +144,17 @@ body	{
   		left: 0px;
 		top: 0px;
 		background-size: cover;
+		}
+
+.map img	{
+		display: inline-block;
+		width: 40%;
+		border: 3px solid #394a6d;
+		padding-bottom: 0px;
+		}
+
+.map img:hover	{
+		border: 3px solid #c70d3a;
 		}
 
 footer		{	
