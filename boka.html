@@ -29,22 +29,35 @@
 				<h1>Boka parkering.</h1>
 			
 				<img src="images\boka.jpg">
-				
+
+				<h2>Du är bara några klick ifrån din perfekta parkering! Fyll i formuläret nedan 
+					så skickar vi en bekräftelse till din mail eller telefon.</h2>
+				<br>
 				<div class="booking">
 					
-					Input / Text: <input name="name" type="text" placeholder="Your name"><br><br>
+					Ditt namn: <input name="name" type="text" placeholder="Fullständigt namn"><br><br>
+					
+					Email: <input name="email" type="email" placeholder="Fullständig email"><br><br>
+					
+					Mobilnummer: <input name="number" type="text" placeholder="000-0000000"><br><br>
 
-					Biltyp: <select name="cars">
+					Registreringsnummer: <input name="register" type="text" placeholder="NRM-123"><br><br>
+
+					Parkeringsplats: <select name="parkingspot">
 							<option value="">Välj...</option>
-  							<option value="volvo">Dyr</option>
-  							<option value="tesla">Dyrare</option>
-  							<option value="toyota">Dyrast</option>
-  							<option value="audi">Audi</option>
+  							<option value="sodermalm">Södermalm</option>
+  							<option value="ostermalm">Östermalm</option>
+  							<option value="city">City</option>
+  							<option value="liljeholmen">Liljeholmen</option>
 						</select><br><br>
 
-					Input / date: <input name="date" type="date" placeholder="Select date" min="2018-10-22" max="2020-07-31"><br><br>
+					Datum för parkering: <input name="date" type="date" placeholder="Select date" min="2018-10-22" max="2020-07-31"><br><br>
 
-					Button / Button: <button type="button" onclick="alert('Tack för dina pengar!')">Klicka!</button><br><br>
+					<input type="checkbox" name="agree" id="check1"/>
+						<label for="check1">Jag accepterar att detta är ett bindande avtal <br>
+							till Deluxe Parkering och att all form av ombokning är helt omöjlig.</label><br><br>
+
+					Beställ: <button type="button" onclick="alert('Tack för dina pengar!')">Klicka!</button><br><br>
 				
 				</div>
 			
