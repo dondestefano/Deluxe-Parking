@@ -1,3 +1,7 @@
+body	{
+		background: black;
+		}
+
 .body	{
 		display: block;
 		position: relative;
@@ -61,7 +65,7 @@
 		}
 
 
-.menu a:active {
+.menu a.active {
   		background-color: #394a6d;
   		color: white;
 		font-family: 'Poppins', bold;
@@ -110,10 +114,15 @@
 .content img	{
 		display: inline-block;
 		width: 100%;
+		padding-bottom: 15px;
 		}
 
+.booking	{
+		text-align: left;
+		}
+
+
 .background	{
-		background-color: grey;
  		position: absolute;
   		left: 0px;
 		top: 0px;
@@ -129,7 +138,7 @@
 		background-size: cover;
 		}
 
-.footer		{	
+footer		{	
 		background-color: #394a6d;
 		position: relative;
 		display: block;
