@@ -140,9 +140,13 @@ body	{
 		padding-right: 65px;
 		}
 
+h1.about	{
+		padding-left: 100px;
+		}
+
 .booking	{
 		text-align: left;
-		margin-left: 340px;
+		margin-left: 320px;
 		}
 
 
@@ -199,7 +203,8 @@ footer		{
 
 .footertext	{	
   		text-align: center;
-		padding-top: 40px;
+		padding-top: 4vh;
 		color: white;
 		z-index: 1;
+		font-family: 'Oswald', sans-serif;
 		}
