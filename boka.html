@@ -1,64 +1,80 @@
 ﻿<!DOCTYPE html>
-<html>
-	<head>
-		<title>Deluxe Parkering</title>
-		<link rel="stylesheet" type="text/css" href="design.css?"/>
-		<link href="https://fonts.googleapis.com/css?family=Audiowide|Manjari|Poppins&display=swap" rel="stylesheet">
-	</head>
+<html lang="sv">
 
+<head>
+	<title>Deluxe Parkering</title>
+	<link rel="stylesheet" type="text/css" href="design.css?" />
+	<link href="https://fonts.googleapis.com/css?family=Audiowide|Manjari|Oswald|Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
 	<div class="background">
-	<img src="images\parking-garage-984253_1920.jpg">
+		<img src="images/parking-garage-984253_1920.jpg" alt="Garage">
 	</div>
 
-	<body>
-		<div class="body">
-			<div class="header">
-				<div class="logo">Deluxe Parkering</div>
-			</div>
-
-			<div class="menu">
-				<a href="index.html">Startsida</a>
-				<a href="boka.html">Boka parkering</a>
-				<a href="ovriga.html">Övriga tjänster</a>
-				<a href="hitta.html">Hitta till oss</a>
-				<a href="kontakt.html">Kontakt</a>
-			</div>
-
-			<div class="content">
-				
-				<h1>Boka parkering.</h1>
-			
-				<img src="images\boka.jpg">
-				
-				<div class="booking">
-					
-					Input / Text: <input name="name" type="text" placeholder="Your name"><br><br>
-
-					Biltyp: <select name="cars">
-							<option value="">Välj...</option>
-  							<option value="volvo">Dyr</option>
-  							<option value="tesla">Dyrare</option>
-  							<option value="toyota">Dyrast</option>
-  							<option value="audi">Audi</option>
-						</select><br><br>
-
-					Input / date: <input name="date" type="date" placeholder="Select date" min="2018-10-22" max="2020-07-31"><br><br>
-
-					Button / Button: <button type="button" onclick="alert('Hejsan Svejsan!')">Klicka!</button><br><br>
-				
-				</div>
-			
-			</div>
-
-		<div class="footer">	
-		
-		<div class="footertext">Deluxe Parking Copyright 2019</div>
-		
+	<div class="site">
+		<div class="header">
+			<div class="logo">Deluxe Parkering</div>
 		</div>
 
-		</div>	
-		
-	</body>
+		<div class="menu">
+			<a href="index.html">Startsida</a>
+			<a class="active" href="boka.html">Boka parkering</a>
+			<a href="ovriga.html">Övriga tjänster</a>
+			<a href="hitta.html">Hitta till oss</a>
+			<a href="kontakt.html">Kontakt</a>
+			<a href="web.html">Om oss</a>
+		</div>
+
+		<div class="content">
+
+			<h1>Boka parkering.</h1>
+
+			<img src="images/boka.jpg" alt="Booking">
+
+			<h2>Du är bara några klick ifrån din perfekta parkering! Fyll i formuläret nedan
+				så skickar vi en bekräftelse till din mail eller telefon.</h2>
+			<br>
+			<div class="booking">
+
+				Ditt namn: <input name="name" type="text" placeholder="Fullständigt namn"><br><br>
+
+				Email: <input name="email" type="email" placeholder="Fullständig email"><br><br>
+
+				Mobilnummer: <input name="number" type="text" placeholder="000-0000000"><br><br>
+
+				Registreringsnummer: <input name="register" type="text" placeholder="NRM-123"><br><br>
+
+				Parkeringsplats: <select name="parkingspot">
+					<option value="">Välj...</option>
+					<option value="sodermalm">Södermalm</option>
+					<option value="ostermalm">Östermalm</option>
+					<option value="city">City</option>
+					<option value="liljeholmen">Liljeholmen</option>
+				</select><br><br>
+
+				Datum för parkering: <input name="date" type="date" placeholder="Select date" min="2018-10-22"
+					max="2020-07-31"><br><br>
+
+				<input type="checkbox" name="agree" id="check1" />
+				<label for="check1">Jag accepterar att detta är ett bindande avtal <br>
+					till Deluxe Parkering och att all form av ombokning är helt omöjlig.</label><br><br>
+
+				Beställ: <button type="button" onclick="alert('Tack för dina pengar!')">Klicka!</button><br><br>
+
+			</div>
+
+		</div>
+
+		<footer>
+
+			<div class="footertext">Deluxe Parking Copyright 2019</div>
+
+	</div>
+
+	</footer>
+
+</body>
 
 
 </html>

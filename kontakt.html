@@ -1,17 +1,17 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="sv">
 	<head>
 		<title>Deluxe Parkering</title>
 		<link rel="stylesheet" type="text/css" href="design.css?"/>
-		<link href="https://fonts.googleapis.com/css?family=Audiowide|Manjari|Poppins&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Audiowide|Manjari|Oswald|Poppins&display=swap" rel="stylesheet">
 	</head>
 
-	<div class="background">
-	<img src="images\parking-garage-984253_1920.jpg">
-	</div>
-
 	<body>
-		<div class="body">
+		<div class="background">
+			<img src="images/parking-garage-984253_1920.jpg" alt="Garage">
+		</div>
+
+		<div class="site">
 			<div class="header">
 				<div class="logo">Deluxe Parkering</div>
 			</div>
@@ -21,14 +21,15 @@
 				<a href="boka.html">Boka parkering</a>
 				<a href="ovriga.html">Övriga tjänster</a>
 				<a href="hitta.html">Hitta till oss</a>
-				<a href="kontakt.html">Kontakt</a>
+				<a class="active" href="kontakt.html">Kontakt</a>
+				<a href="web.html">Om oss</a>
 			</div>
 
 			<div class="content">
 
-				<h1>Alltid redo.</h1>
+				<h1 class="contact">Alltid redo.</h1>
 			
-				<img src="images\contact-us-2993000_1920.jpg">
+				<img src="images/contact.png" alt="Contact">
 			
 				<h2>På Deluxe Parkering är din åsikt vår lag och vår kundtjänst står alltid redo att svara på dina frågor*.</h2>
 
@@ -36,29 +37,33 @@
 				
 				<form action="http://primat.se/services/sendform.aspx?recipient=vigillarcash@nej.se" method="post">
 					<br>
-					<h4>Fullständigt namn: </h4> <input name="name" type="text" placeholder="Namn + Efternamn"><br><br>
+					Fullständigt namn:<br>
+					<input name="name" type="text" placeholder="Namn + Efternamn"><br><br>
 			
 					
-					<h4>E-mail:</h4> <input name="email" type="email" placeholder="Fyll i din mailadress."><br><br>
+					E-mail:<br>
+					<input name="email" type="email" placeholder="Fyll i din mailadress."><br><br>
 
 			
-					<h4>Meddelande: </h4> <textarea name="message" placeholder="Beskriv ditt problem så noggrant som möjligt." rows="4" cols="50"></textarea><br><br>
+					Meddelande:<br>
+					<textarea name="message" placeholder="Beskriv ditt ärende så noggrant som möjligt." rows="4" cols="50"></textarea><br><br>
 
 					<button type="submit" value="Skicka">Skicka</button>
 				</form> 
 		
-				
-				<h3>*Frågor rörande våra priser skickas direkt till ignore@dparkering.se</h3>
+				<br>
+
+				<h3>*Frågor rörande våra priser skickas direkt till: ignore@dparkering.se</h3>
 			
 			</div>
 			
 			</div>
 
-		<div class="footer">	
+		<footer>	
 		
 		<div class="footertext">Deluxe Parking Copyright 2019</div>
 		
-		</div>
+		</footer>
 
 		</div>	
 		
